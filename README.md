@@ -4,7 +4,7 @@
 | ------------ | ---------------------------------------------------------------- |
 | name         | Python Signal Timer Processing module                            |
 | version      | v1.0.0                                                           |
-| DockerHub Link       | [weevenetwork/signal-timer](https://hub.docker.com/r/weevenetwork/signal-timer) |
+| DockerHub Link       | [beetaone/signal-timer](https://hub.docker.com/r/beetaone/signal-timer) |
 | authors      | Denis Pilon, Bruno Lipovac                                       |
 
 ***
@@ -26,7 +26,7 @@ value.
 
 ## Module Variables
 
-The following module configurations can be provided in a data service designer section on weeve platform:
+The following module configurations can be provided in a data service designer section on beetaone platform:
 
 | Environment Variables | type   | Description                                       |
 | --------------------- | ------ | ------------------------------------------------- |
@@ -101,4 +101,5 @@ Example when OUTPUT_LABEL is set to `signal_duration_in_seconds`:
   "signal_duration_in_seconds": 100,
   "timestamp": 1659527972757
 }
+```}
 ```

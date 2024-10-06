@@ -7,9 +7,9 @@ categories: # Array of category that will be used to group the module in the UI.
     - "Timer"
 type: "Processing" # Module type (Input, Processing, Output) that will be used to group the module in the UI.
 image:
-    name: "weevenetwork/signal-timer" # Image name from the docker registry.
+    name: "beetaone/signal-timer" # Image name from the docker registry.
     tag: "latest" # Image tag from the docker registry.
-    homepage: "https://hub.docker.com/weevenetwork/module-boilerplate" # Image homepage from the docker registry.
+    homepage: "https://hub.docker.com/beetaone/module-boilerplate" # Image homepage from the docker registry.
 repository: "https://github.com/barrage/signal-timer" # Repository URL to source code.
 envs: # Array of environment variables that will be used to configure the module. Also used to show related fields on the UI.
     - name: Input label
@@ -58,4 +58,4 @@ tags: # Array of tags.
     - "Processing"
     - "Signal Timer"
     - "Signal Timer 1.0.0"
-icon: "https://some.url/to/icon.png" # Icon URL that will be displayed in the UI.
+icon: "https://some.url/to/icon.png" # Icon URL that will be displayed in the UI. the UI.
